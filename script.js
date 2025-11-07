@@ -29,10 +29,11 @@ function playOmikuji(){
 document.querySelector("#js-button").addEventListener("click", playOmikuji);
 
 function resetOmikuji(){
-        document.querySelector("#js-result").setAttribute("src","/omikuji.png");
+        document.querySelector("#js-result").setAttribute("src","omikuji.png");
         document.querySelector("#js-retry").style.display = "none";
         document.querySelector("#js-button").style.display ="inline-block"
 }
 
 document.querySelector("#js-retry").addEventListener("click",resetOmikuji);
+
 
