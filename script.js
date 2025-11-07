@@ -38,3 +38,4 @@ document.querySelector("#js-retry").addEventListener("click",resetOmikuji);
 
 
 
+
