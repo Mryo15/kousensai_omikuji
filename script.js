@@ -8,6 +8,8 @@ function playOmikuji(){
     const resultImg =document.querySelector("#js-result");
     const retryBtn =document.querySelector("#js-retry");
     const drawBtn =document.querySelector("#js-button");
+    const audio =dicument.getElementById("my-audio");
+    audio.play();
 
     resultImg.setAttribute("src","omikuji.png");
 
@@ -20,7 +22,7 @@ function playOmikuji(){
     setTimeout(function(){
         clearInterval(timer);
         document.querySelector("#js-retry").style.display = "inline-block";
-    },3000);
+    },6000);
 }
 
 
@@ -33,6 +35,7 @@ function resetOmikuji(){
 }
 
 document.querySelector("#js-retry").addEventListener("click",resetOmikuji);
+
 
 
 
