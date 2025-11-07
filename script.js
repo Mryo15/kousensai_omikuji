@@ -11,7 +11,7 @@ function playOmikuji(){
     const audio = document.getElementById("my-audio");
     audio.play();
 
-    resultImg.setAttribute("src","/omikuji.png");
+    resultImg.setAttribute("src","omikuji.png");
 
     drawBtn.style.display ="none";
 
@@ -35,5 +35,6 @@ function resetOmikuji(){
 }
 
 document.querySelector("#js-retry").addEventListener("click",resetOmikuji);
+
 
 
