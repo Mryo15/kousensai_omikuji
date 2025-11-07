@@ -15,7 +15,7 @@ function playOmikuji(){
 
     const timer = setInterval(function(){
         document.querySelector("#js-result").setAttribute("src",getRandomImage());
-    },100);
+    },300);
 
     setTimeout(function(){
         clearInterval(timer);
@@ -33,5 +33,6 @@ function resetOmikuji(){
 }
 
 document.querySelector("#js-retry").addEventListener("click",resetOmikuji);
+
 
 
