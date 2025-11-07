@@ -1,6 +1,6 @@
 function getRandomImage(){
     const number = Math.floor(Math.random() * 7);
-    const imagePath =`/omikuji-${number.toString()}.png`;
+    const imagePath =`omikuji-${number.toString()}.png`;
     return imagePath;
 }
 
@@ -35,3 +35,4 @@ function resetOmikuji(){
 }
 
 document.querySelector("#js-retry").addEventListener("click",resetOmikuji);
+
